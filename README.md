@@ -68,3 +68,51 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+# Project Name : Single-Page Application (SPA) with User Authentication
+
+This project is a simple demonstration of integrating Auth0 authentication in a React application.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. **Clone the Repository**: 
+
+
+2. **Install Dependencies**: 
+
+
+3. **Set Up Auth0**:
+- Create an account on [Auth0](https://auth0.com/).
+- Set up a new application and note down the client ID and domain.
+- Configure the allowed callback URLs and logout URLs in your Auth0 application settings.
+
+4. **Start the Development Server**:
+
+
+5. **View the Application**:
+Open your browser and navigate to `http://localhost:3000`.
+
+## About Auth0
+
+Auth0 provides authentication, authorization, and single sign-on services for apps of any type: web, mobile, native, and more.
+
+## Functionality Overview
+
+This project is a demonstration of integrating Auth0 authentication into a React application. Users can log in using Auth0, view their profile information, and log out securely.
+
+## Design Choices and Technical Challenges
+
+*Design Choices:*
+- The project follows a simple and clean UI design to focus on functionality.
+- Responsive design principles have been applied to ensure usability on various devices.
+
+*Technical Challenges:*
+- Integrating Auth0 authentication required understanding and implementing OAuth2 flows.
+- Handling user authentication states and managing tokens securely posed challenges in terms of state management and security.
